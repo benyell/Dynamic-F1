@@ -1,0 +1,9 @@
+# Ignore Python virtual environments
+venv/
+env/
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+# Ignore installed packages
+*.egg-info/
+*.dist-info/
