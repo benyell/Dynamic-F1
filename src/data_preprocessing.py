@@ -7,17 +7,18 @@ def preprocess_data(input_file, output_file):
     print(f"Loading data from {input_file}...")
     df = pd.read_csv(input_file)
 
-    # Remove invalid rows
-    print("Cleaning data...")
-    df = df[df["inventory_level"] >= 0]
+    # Flag negative inventory levels
+    print("Flagging stockouts and inefficiencies...")
+    df["stockout"] = df["inventory_level"].apply(lambda x: 1 if x < 0 else 0)
+    df["excessive_transport_cost"] = df["transport_cost"].apply(lambda x: 1 if x > 200 else 0)
+    df["excessive_lead_time"] = df["lead_time"].apply(lambda x: 1 if x > 7 else 0)
 
     # Add calculated features
     print("Adding features...")
     df["remaining_inventory"] = df["inventory_level"] - df["demand"]
-    df["stockout"] = df["remaining_inventory"].apply(lambda x: 1 if x < 0 else 0)
     df["overstock"] = df["inventory_level"].apply(lambda x: 1 if x > 50 else 0)
 
-    # Save cleaned data
+    # Save processed data
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     df.to_csv(output_file, index=False)
     print(f"Processed data saved to {output_file}")
@@ -44,15 +45,20 @@ def visualize_data(df):
     ax2.set_ylabel("Transport Cost")
     ax2.legend(loc="upper right")
 
-    # Add stockout and overstock markers
-    stockout_days = df[df["remaining_inventory"] < 0]["day"]
-    overstock_days = df[df["inventory_level"] > 50]["day"]
+    # Add stockout, overstock, and inefficiency markers
+    stockout_days = df[df["stockout"] == 1]["day"]
+    overstock_days = df[df["overstock"] == 1]["day"]
+    excessive_cost_days = df[df["excessive_transport_cost"] == 1]["day"]
+    excessive_lead_time_days = df[df["excessive_lead_time"] == 1]["day"]
+
     plt.scatter(stockout_days, [10] * len(stockout_days), color="red", label="Stockouts", marker="x")
     plt.scatter(overstock_days, [50] * len(overstock_days), color="purple", label="Overstock", marker="o")
+    plt.scatter(excessive_cost_days, [200] * len(excessive_cost_days), color="brown", label="High Transport Cost", marker="D")
+    plt.scatter(excessive_lead_time_days, [200] * len(excessive_lead_time_days), color="cyan", label="High Lead Time", marker="s")
 
     # Add labels and legend
     plt.legend(loc="upper left")
-    plt.title("Inventory and Demand Over Time")
+    plt.title("Supply Chain Metrics Over Time")
     plt.xlabel("Day")
     plt.ylabel("Units")
     plt.show()
@@ -61,6 +67,8 @@ def visualize_data(df):
 def calculate_metrics(df):
     stockouts = df["stockout"].sum()
     overstock_days = df["overstock"].sum()
+    excessive_transport_cost_days = df["excessive_transport_cost"].sum()
+    excessive_lead_time_days = df["excessive_lead_time"].sum()
     total_transport_cost = df["transport_cost"].sum()
 
     # Additional KPIs
@@ -70,12 +78,14 @@ def calculate_metrics(df):
     print(f"Metrics Report:")
     print(f"Total Stockouts: {stockouts}")
     print(f"Total Overstock Days: {overstock_days}")
-    print(f"Total Transportation Cost: {total_transport_cost:.2f}")
+    print(f"Excessive Transport Cost Days: {excessive_transport_cost_days}")
+    print(f"Excessive Lead Time Days: {excessive_lead_time_days}")
+    print(f"Total Transport Cost: {total_transport_cost:.2f}")
     print(f"Service Level: {service_level:.2%}")
     print(f"Average Inventory Level: {avg_inventory:.2f}")
 
 if __name__ == "__main__":
-    input_file = "data/supply_chain_data_with_telemetry.csv"
+    input_file = "data/supply_chain_data_with_distances.csv"
     output_file = "data/processed_supply_chain_data.csv"
 
     # Preprocess and visualize data

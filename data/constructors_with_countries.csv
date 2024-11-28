@@ -1,0 +1,185 @@
+id_x,name_x,fullName,countryId,bestChampionshipPosition,bestStartingGridPosition,bestRaceResult,totalChampionshipWins,totalRaceEntries,totalRaceStarts,totalRaceWins,total1And2Finishes,totalRaceLaps,totalPodiums,totalPodiumRaces,totalPoints,totalChampionshipPoints,totalPolePositions,totalFastestLaps,name_y
+adams,Adams,Adams,united-states-of-america,,17.0,27.0,0,1,1,0,0,108,0,0,0.0,0.0,0,0,United States of America
+afm,AFM,Alex von Falkenhausen Motorenbau,germany,,9.0,9.0,0,4,4,0,0,98,0,0,0.0,0.0,0,0,Germany
+ags,AGS,Automobiles Gonfaronnaises Sportives,france,11.0,10.0,6.0,0,80,48,0,0,2031,0,0,2.0,2.0,0,0,France
+alfa-romeo,Alfa Romeo,Alfa Romeo Racing,italy,6.0,1.0,1.0,0,214,214,10,4,20608,26,18,199.0,199.0,12,16,Italy
+alfa-special,Alfa Special,Alfa Special,south-africa,,16.0,10.0,0,2,2,0,0,132,0,0,0.0,0.0,0,0,South Africa
+alphatauri,AlphaTauri,Scuderia AlphaTauri,italy,6.0,2.0,1.0,0,83,83,1,0,8865,2,2,309.0,309.0,0,2,Italy
+alpine,Alpine,Alpine F1 Team,france,4.0,2.0,1.0,0,88,88,1,0,9513,6,5,497.0,497.0,0,1,France
+alta,Alta,Alta Car and Engineering Company,united-kingdom,,12.0,9.0,0,5,5,0,0,311,0,0,0.0,0.0,0,0,United Kingdom
+amon,Amon,Chris Amon Racing,new-zealand,,20.0,,0,4,1,0,0,22,0,0,0.0,0.0,0,0,New Zealand
+andrea-moda,Andrea Moda,Andrea Moda Formula,italy,,26.0,,0,10,1,0,0,11,0,0,0.0,0.0,0,0,Italy
+apollon,Apollon,Apollon,switzerland,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Switzerland
+arrows,Arrows,Arrows Grand Prix International,united-kingdom,5.0,1.0,2.0,0,296,291,0,0,24515,8,8,142.0,142.0,1,0,United Kingdom
+arzani-volpini,Arzani-Volpini,Scuderia Arzani-Volpini,italy,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Italy
+aston-butterworth,Aston Butterworth,Aston Butterworth,united-kingdom,,15.0,,0,4,2,0,0,19,0,0,0.0,0.0,0,0,United Kingdom
+aston-martin,Aston Martin,Aston Martin,united-kingdom,5.0,2.0,2.0,0,94,93,0,0,10316,9,9,498.0,498.0,0,3,United Kingdom
+ats-wheels,ATS,ATS Wheels,germany,11.0,4.0,5.0,0,107,89,0,0,4375,0,0,7.0,7.0,0,0,Germany
+ats,ATS,Automobili Turismo e Sport,italy,,13.0,11.0,0,5,5,0,0,250,0,0,0.0,0.0,0,0,Italy
+balsa,Balsa,Balsa,germany,,25.0,,0,1,1,0,0,5,0,0,0.0,0.0,0,0,Germany
+bar,BAR,British American Racing,united-kingdom,2.0,1.0,2.0,0,118,117,0,0,11153,15,15,227.0,227.0,2,0,United Kingdom
+behra-porsche,Behra-Porsche,Behra-Porsche,germany,,14.0,10.0,0,4,2,0,0,117,0,0,0.0,0.0,0,0,Germany
+bellasi,Bellasi,Bellasi,italy,,22.0,,0,6,2,0,0,18,0,0,0.0,0.0,0,0,Italy
+benetton,Benetton,Benetton Formula,italy,1.0,1.0,1.0,1,260,260,27,2,26035,102,94,861.5,851.5,15,36,Italy
+bmw-sauber,BMW Sauber,BMW Sauber F1 Team,germany,2.0,1.0,1.0,0,70,70,1,1,7937,17,16,308.0,308.0,1,2,Germany
+bmw,BMW,BMW,germany,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Germany
+boro,Boro,Boro,netherlands,,13.0,8.0,0,8,6,0,0,263,0,0,0.0,0.0,0,0,Netherlands
+brabham,Brabham,Motor Racing Developments,united-kingdom,1.0,1.0,1.0,2,402,394,35,8,41173,124,106,983.0,843.0,39,42,United Kingdom
+brawn,Brawn,Brawn GP Formula One Team,united-kingdom,1.0,1.0,1.0,1,17,17,8,4,1921,15,11,172.0,172.0,5,4,United Kingdom
+brm,BRM,British Racing Motors,united-kingdom,1.0,1.0,1.0,1,208,197,17,5,23759,61,53,535.5,385.0,11,15,United Kingdom
+bromme,Bromme,Bromme,united-states-of-america,,11.0,22.0,0,4,4,0,0,314,0,0,0.0,0.0,0,0,United States of America
+brp,BRP,British Racing Partnership,united-kingdom,6.0,7.0,4.0,0,13,13,0,0,801,0,0,11.0,11.0,0,0,United Kingdom
+bugatti,Bugatti,Bugatti,france,,18.0,,0,1,1,0,0,18,0,0,0.0,0.0,0,0,France
+caterham,Caterham,Caterham F1 Team,malaysia,10.0,14.0,11.0,0,56,56,0,0,5521,0,0,0.0,0.0,0,0,Malaysia
+christensen,Christensen,Christensen,united-states-of-america,,14.0,18.0,0,2,2,0,0,232,0,0,0.0,0.0,0,0,United States of America
+cisitalia,Cisitalia,Cisitalia,italy,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Italy
+coloni,Coloni,Scuderia Coloni,italy,,15.0,8.0,0,65,13,0,0,522,0,0,0.0,0.0,0,0,Italy
+connaught,Connaught,Connaught Engineering,united-kingdom,,5.0,3.0,0,18,17,0,0,2126,1,1,0.0,0.0,0,0,United Kingdom
+connew,Connew,Connew Racing Team,united-kingdom,,25.0,,0,2,1,0,0,22,0,0,0.0,0.0,0,0,United Kingdom
+cooper,Cooper,Cooper Car Company,united-kingdom,1.0,1.0,1.0,2,129,129,16,6,22924,58,41,480.5,301.0,11,14,United Kingdom
+dallara,Dallara,Dallara Automobili,italy,8.0,3.0,3.0,0,80,78,0,0,5400,2,2,15.0,15.0,0,0,Italy
+de-tomaso,De Tomaso,De Tomaso Modena,italy,,9.0,,0,15,10,0,0,335,0,0,0.0,0.0,0,0,Italy
+deidt,Deidt,Deidt,united-states-of-america,,3.0,2.0,0,3,3,0,0,899,2,1,0.0,0.0,0,0,United States of America
+del-roy,Del Roy,Del Roy,united-states-of-america,,33.0,32.0,0,1,1,0,0,6,0,0,0.0,0.0,0,0,United States of America
+derrington-francis,Derrington-Francis,Derrington-Francis Racing Team,united-kingdom,,19.0,,0,1,1,0,0,24,0,0,0.0,0.0,0,0,United Kingdom
+dunn,Dunn,Dunn,united-states-of-america,,23.0,13.0,0,3,3,0,0,349,0,0,0.0,0.0,0,0,United States of America
+eagle,Eagle,All American Racers,united-states-of-america,7.0,2.0,1.0,0,26,25,1,0,746,2,2,17.0,17.0,0,2,United States of America
+eifelland,Eifelland,Team Eifelland Caravans,germany,,14.0,10.0,0,8,8,0,0,414,0,0,0.0,0.0,0,0,Germany
+elder,Elder,Elder,united-states-of-america,,32.0,23.0,0,1,1,0,0,115,0,0,0.0,0.0,0,0,United States of America
+emeryson,Emeryson,Emeryson Cars,united-kingdom,,19.0,11.0,0,6,4,0,0,153,0,0,0.0,0.0,0,0,United Kingdom
+emw,EMW,Eisenacher Motorenwerk,germany,,24.0,,0,1,1,0,0,12,0,0,0.0,0.0,0,0,Germany
+enb,ENB,Ecurie National Belge,belgium,,25.0,16.0,0,1,1,0,0,14,0,0,0.0,0.0,0,0,Belgium
+ensign,Ensign,Ensign Racing,united-kingdom,10.0,3.0,4.0,0,133,99,0,0,4458,0,0,19.0,19.0,0,1,United Kingdom
+epperly,Epperly,Epperly,united-states-of-america,,7.0,1.0,0,5,5,2,2,2784,5,3,29.0,0.0,0,2,United States of America
+era,ERA,English Racing Automobiles,united-kingdom,,10.0,6.0,0,7,7,0,0,561,0,0,0.0,0.0,0,0,United Kingdom
+eurobrun,EuroBrun,EuroBrun Racing,italy,,15.0,11.0,0,46,15,0,0,841,0,0,0.0,0.0,0,0,Italy
+ewing,Ewing,Ewing,united-states-of-america,,1.0,17.0,0,2,2,0,0,294,0,0,0.0,0.0,1,0,United States of America
+ferguson,Ferguson,Harry Ferguson Research,united-kingdom,,20.0,,0,1,1,0,0,56,0,0,0.0,0.0,0,0,United Kingdom
+ferrari,Ferrari,Scuderia Ferrari,italy,1.0,1.0,1.0,16,1098,1096,248,87,123756,826,630,10565.0,10209.0,253,265,Italy
+first,FIRST,FIRST Racing,italy,,,,0,0,0,0,0,0,0,0,0.0,0.0,0,0,Italy
+fittipaldi,Fittipaldi,Fittipaldi Automotive,brazil,7.0,5.0,2.0,0,120,103,0,0,5343,3,3,44.0,44.0,0,0,Brazil
+fondmetal,Fondmetal,Fondmetal,italy,,10.0,10.0,0,29,19,0,0,736,0,0,0.0,0.0,0,0,Italy
+footwork,Footwork,Footwork Arrows,united-kingdom,7.0,6.0,3.0,0,97,91,0,0,7150,1,1,25.0,25.0,0,0,United Kingdom
+force-india,Force India,Force India F1 Team,india,4.0,1.0,2.0,0,212,212,0,0,22042,6,6,1098.0,1039.0,1,5,India
+forti,Forti,Forti Corse,italy,,19.0,7.0,0,27,23,0,0,1804,0,0,0.0,0.0,0,0,Italy
+frank-williams-racing-cars,Frank Williams Racing Cars,Frank Williams Racing Cars,united-kingdom,9.0,11.0,2.0,0,14,12,0,0,684,1,1,6.0,6.0,0,0,United Kingdom
+frazer-nash,Frazer-Nash,Frazer-Nash,united-kingdom,,7.0,4.0,0,4,4,0,0,221,0,0,0.0,0.0,0,0,United Kingdom
+fry,Fry,Fry Racing Team,united-kingdom,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,United Kingdom
+gilby,Gilby,Gilby Engineering,united-kingdom,,19.0,15.0,0,6,3,0,0,135,0,0,0.0,0.0,0,0,United Kingdom
+gordini,Gordini,Gordini,france,,3.0,3.0,0,33,33,0,0,3975,2,2,0.0,0.0,0,1,France
+greifzu,Greifzu,Greifzu,germany,,26.0,14.0,0,1,1,0,0,16,0,0,0.0,0.0,0,0,Germany
+haas,Haas,Haas F1 Team,united-states-of-america,5.0,4.0,4.0,0,188,188,0,0,19645,0,0,299.0,299.0,1,2,United States of America
+hall,Hall,Hall,united-states-of-america,,33.0,19.0,0,1,1,0,0,97,0,0,0.0,0.0,0,0,United States of America
+heck,Heck,Heck,germany,,29.0,12.0,0,2,2,0,0,29,0,0,0.0,0.0,0,0,Germany
+hesketh,Hesketh,Hesketh Racing,united-kingdom,4.0,2.0,1.0,0,60,52,1,0,3015,7,7,48.0,48.0,0,1,United Kingdom
+hill,Hill,Embassy Racing With Graham Hill,united-kingdom,11.0,6.0,5.0,0,11,10,0,0,688,0,0,3.0,3.0,0,0,United Kingdom
+honda,Honda,Honda Racing F1 Team,japan,4.0,1.0,1.0,0,88,88,3,0,7671,9,9,156.0,154.0,2,2,Japan
+hrt,HRT,Hispania Racing Team,spain,11.0,18.0,13.0,0,57,56,0,0,5328,0,0,0.0,0.0,0,0,Spain
+hwm,HWM,Hersham and Walton Motors,united-kingdom,,6.0,5.0,0,16,14,0,0,1537,0,0,0.0,0.0,0,0,United Kingdom
+iso-marlboro,Iso-Marlboro,Iso-Marlboro,united-kingdom,10.0,3.0,4.0,0,30,30,0,0,2105,0,0,6.0,6.0,0,0,United Kingdom
+jaguar,Jaguar,Jaguar Racing F1 Team,united-kingdom,7.0,2.0,3.0,0,85,85,0,0,7738,2,2,49.0,49.0,0,0,United Kingdom
+jbw,JBW,JBW Cars,united-kingdom,,7.0,13.0,0,6,5,0,0,157,0,0,0.0,0.0,0,0,United Kingdom
+jordan,Jordan,Jordan Grand Prix,ireland,3.0,1.0,1.0,0,250,250,4,1,22001,19,17,291.0,291.0,2,2,Ireland
+kauhsen,Kauhsen,Kauhsen,germany,,,,0,2,0,0,0,0,0,0,0.0,0.0,0,0,Germany
+kick-sauber,Kick Sauber,Kick Sauber F1 Team,germany,,10.0,11.0,0,22,22,0,0,2504,0,0,0.0,0.0,0,0,Germany
+klenk,Klenk,Klenk,germany,,21.0,,0,1,1,0,0,8,0,0,0.0,0.0,0,0,Germany
+kojima,Kojima,Kojima Engineering,japan,,10.0,11.0,0,2,2,0,0,138,0,0,0.0,0.0,0,0,Japan
+krakau,Krakau,Krakau,germany,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Germany
+kurtis-kraft,Kurtis Kraft,Kurtis Kraft,united-states-of-america,,1.0,1.0,0,12,12,5,3,26720,16,8,4.0,0.0,6,7,United States of America
+kuzma,Kuzma,Kuzma,united-states-of-america,,2.0,1.0,0,10,10,1,0,5921,3,3,0.0,0.0,0,0,United States of America
+lancia,Lancia,Lancia,italy,,1.0,2.0,0,5,4,0,0,460,1,1,0.0,0.0,2,1,Italy
+langley,Langley,Langley,united-states-of-america,,31.0,16.0,0,1,1,0,0,128,0,0,0.0,0.0,0,0,United States of America
+larrousse,Larrousse,Larrousse F1,france,10.0,9.0,5.0,0,32,32,0,0,2805,0,0,5.0,5.0,0,0,France
+lds,LDS,LDS,south-africa,,14.0,11.0,0,5,5,0,0,306,0,0,0.0,0.0,0,0,South Africa
+lec,LEC,LEC Refrigeration Racing,united-kingdom,,19.0,13.0,0,5,3,0,0,142,0,0,0.0,0.0,0,0,United Kingdom
+lesovsky,Lesovsky,Lesovsky,united-states-of-america,,1.0,3.0,0,9,9,0,0,1931,1,1,7.0,0.0,1,1,United States of America
+leyton-house,Leyton House,Leyton House Racing,united-kingdom,7.0,7.0,2.0,0,32,30,0,0,2134,1,1,8.0,8.0,0,0,United Kingdom
+life,Life,Life Racing Engines,italy,,,,0,14,0,0,0,0,0,0,0.0,0.0,0,0,Italy
+ligier,Ligier,Equipe Ligier,france,2.0,1.0,1.0,0,330,326,9,1,26233,50,45,388.0,388.0,9,10,France
+lola,Lola,Lola Cars,united-kingdom,4.0,1.0,2.0,0,152,149,0,0,9874,3,3,43.0,43.0,1,0,United Kingdom
+lotus-f1,Lotus,Lotus F1 Team,united-kingdom,4.0,2.0,1.0,0,77,77,2,0,7500,25,20,706.0,706.0,0,5,United Kingdom
+lotus-racing,Lotus Racing,Lotus Racing,malaysia,10.0,13.0,12.0,0,38,38,0,0,3661,0,0,0.0,0.0,0,0,Malaysia
+lotus,Lotus,Team Lotus,united-kingdom,1.0,1.0,1.0,7,493,491,79,8,55947,172,157,1514.0,1332.0,107,71,United Kingdom
+lyncar,Lyncar,Lyncar,united-kingdom,,26.0,17.0,0,2,1,0,0,51,0,0,0.0,0.0,0,0,United Kingdom
+maki,Maki,Maki Engineering,japan,,,,0,8,0,0,0,0,0,0,0.0,0.0,0,0,Japan
+manor,Manor,Manor Racing,united-kingdom,11.0,12.0,10.0,0,21,21,0,0,2167,0,0,1.0,1.0,0,0,United Kingdom
+march,March,March Engineering,united-kingdom,3.0,1.0,1.0,0,208,197,3,0,21036,21,20,185.0,172.5,5,6,United Kingdom
+marchese,Marchese,Marchese,united-states-of-america,,16.0,11.0,0,2,2,0,0,226,0,0,0.0,0.0,0,0,United States of America
+martini,Martini,Automobiles Martini,france,,18.0,9.0,0,7,4,0,0,213,0,0,0.0,0.0,0,0,France
+marussia,Marussia,Marussia F1 Team,united-kingdom,9.0,12.0,9.0,0,74,73,0,0,7693,0,0,2.0,2.0,0,0,United Kingdom
+maserati,Maserati,Maserati,italy,5.0,1.0,1.0,0,73,70,9,1,16375,37,28,9.0,6.0,10,17,Italy
+matra,Matra,Equipe Matra Sports,france,1.0,1.0,1.0,1,63,62,9,2,6134,21,17,184.0,163.0,4,12,France
+mcguire,McGuire,McGuire,australia,,,,0,1,0,0,0,0,0,0,0.0,0.0,0,0,Australia
+mclaren,McLaren,McLaren Racing,united-kingdom,1.0,1.0,1.0,8,972,968,188,49,102791,522,422,7217.5,6892.5,163,171,United Kingdom
+mercedes,Mercedes,Mercedes AMG F1,germany,1.0,1.0,1.0,8,315,315,129,60,36324,298,201,7647.5,7647.5,140,109,Germany
+merzario,Merzario,Team Merzario,italy,,20.0,,0,31,10,0,0,272,0,0,0.0,0.0,0,0,Italy
+meskowski,Meskowski,Meskowski,united-states-of-america,,21.0,8.0,0,1,1,0,0,394,0,0,0.0,0.0,0,0,United States of America
+midland,Midland,Midland F1 Racing,russia,10.0,14.0,9.0,0,18,18,0,0,1714,0,0,0.0,0.0,0,0,Russia
+minardi,Minardi,Minardi F1 Team,italy,7.0,2.0,4.0,0,346,339,0,0,26826,0,0,38.0,38.0,0,0,Italy
+modena,Modena,Modena Team,italy,,17.0,7.0,0,16,6,0,0,262,0,0,0.0,0.0,0,0,Italy
+moore,Moore,Moore,united-states-of-america,,7.0,6.0,0,3,3,0,0,536,0,0,0.0,0.0,0,0,United States of America
+nacke,Nacke,Nacke,germany,,30.0,,0,1,1,0,0,5,0,0,0.0,0.0,0,0,Germany
+nichels,Nichels,Nichels,united-states-of-america,,4.0,9.0,0,2,2,0,0,300,0,0,0.0,0.0,0,0,United States of America
+olson,Olson,Olson,united-states-of-america,,30.0,23.0,0,1,1,0,0,123,0,0,0.0,0.0,0,0,United States of America
+onyx,Onyx,Onyx Grand Prix,united-kingdom,10.0,11.0,3.0,0,26,17,0,0,1078,1,1,6.0,6.0,0,0,United Kingdom
+osca,O.S.C.A.,Officine Specializzate Costruzione Automobili,italy,,10.0,9.0,0,7,4,0,0,217,0,0,0.0,0.0,0,0,Italy
+osella,Osella,Osella Squadra Corse,italy,12.0,8.0,4.0,0,172,130,0,0,4842,0,0,5.0,5.0,0,0,Italy
+pacific,Pacific,Pacific Racing,united-kingdom,,19.0,8.0,0,33,22,0,0,1154,0,0,0.0,0.0,0,0,United Kingdom
+pankratz,Pankratz,Pankratz,united-states-of-america,,7.0,17.0,0,2,2,0,0,204,0,0,0.0,0.0,0,0,United States of America
+parnelli,Parnelli,Vel's Parnelli Jones Racing,united-states-of-america,10.0,3.0,4.0,0,16,16,0,0,548,0,0,6.0,6.0,0,1,United States of America
+pawl,Pawl,Pawl,united-states-of-america,,13.0,16.0,0,3,3,0,0,394,0,0,0.0,0.0,0,0,United States of America
+penske,Penske,Team Penske,united-states-of-america,5.0,2.0,1.0,0,41,40,1,0,2146,3,3,23.0,23.0,0,0,United States of America
+phillips,Phillips,Phillips,united-states-of-america,,6.0,3.0,0,7,7,0,0,1290,1,1,3.0,0.0,0,0,United States of America
+politoys,Politoys,Politoys,united-kingdom,,26.0,,0,1,1,0,0,7,0,0,0.0,0.0,0,0,United Kingdom
+porsche,Porsche,Porsche,germany,3.0,1.0,1.0,0,35,32,1,0,3309,5,5,50.0,46.0,1,0,Germany
+prost,Prost,Prost Grand Prix,france,6.0,3.0,2.0,0,83,83,0,0,7430,3,3,35.0,35.0,0,0,France
+protos,Protos,Protos,united-kingdom,,23.0,,0,1,1,0,0,16,0,0,0.0,0.0,0,0,United Kingdom
+racing-point,Racing Point,Racing Point F1 Team,united-kingdom,4.0,1.0,1.0,0,38,38,1,0,4156,4,3,283.0,268.0,1,0,United Kingdom
+rae,Rae,Rae,united-states-of-america,,29.0,22.0,0,1,1,0,0,123,0,0,0.0,0.0,0,0,United States of America
+ram,RAM,RAM Racing,united-kingdom,,14.0,8.0,0,44,31,0,0,1628,0,0,0.0,0.0,0,0,United Kingdom
+rb,RB,Racing Bulls,italy,,3.0,7.0,0,22,22,0,0,2376,0,0,46.0,46.0,0,1,Italy
+rebaque,Rebaque,Team Rebaque,mexico,,22.0,,0,3,1,0,0,26,0,0,0.0,0.0,0,0,Mexico
+red-bull,Red Bull,Red Bull Racing,austria,1.0,1.0,1.0,6,392,391,121,31,41923,281,217,7803.0,7803.0,103,99,Austria
+reif,Reif,Reif,germany,,23.0,,0,1,1,0,0,3,0,0,0.0,0.0,0,0,Germany
+renault,Renault,Renault Sport Formula One Team,france,1.0,1.0,1.0,2,403,400,35,2,38337,103,91,1777.0,1777.0,51,33,France
+rial,Rial,Rial Racing,germany,9.0,12.0,4.0,0,32,20,0,0,872,0,0,6.0,6.0,0,0,Germany
+sauber,Sauber,Sauber F1 Team,switzerland,4.0,2.0,2.0,0,395,392,0,0,38401,10,10,557.0,557.0,0,3,Switzerland
+scarab,Scarab,Scarab,united-states-of-america,,15.0,10.0,0,5,2,0,0,87,0,0,0.0,0.0,0,0,United States of America
+schroeder,Schroeder,Schroeder,united-states-of-america,,23.0,5.0,0,4,4,0,0,842,0,0,0.0,0.0,0,0,United States of America
+scirocco,Scirocco,Scirocco-Powell,united-kingdom,,18.0,8.0,0,7,5,0,0,106,0,0,0.0,0.0,0,0,United Kingdom
+shadow,Shadow,Shadow Racing Cars,united-kingdom,6.0,1.0,1.0,0,112,104,1,0,9133,7,7,68.5,67.5,3,2,United Kingdom
+shannon,Shannon,Shannon Racing Cars,united-kingdom,,18.0,,0,1,1,0,0,0,0,0,0.0,0.0,0,0,United Kingdom
+sherman,Sherman,Sherman,united-states-of-america,,13.0,4.0,0,2,2,0,0,397,0,0,0.0,0.0,0,0,United States of America
+simca-gordini,Simca-Gordini,Simca-Gordini,france,,9.0,4.0,0,15,14,0,0,604,0,0,0.0,0.0,0,0,France
+simtek,Simtek,Simtek,united-kingdom,,14.0,9.0,0,21,20,0,0,1473,0,0,0.0,0.0,0,0,United Kingdom
+snowberger,Snowberger,Snowberger,united-states-of-america,,22.0,26.0,0,1,1,0,0,111,0,0,0.0,0.0,0,0,United States of America
+spirit,Spirit,Spirit Racing,united-kingdom,,13.0,7.0,0,25,23,0,0,930,0,0,0.0,0.0,0,0,United Kingdom
+spyker,Spyker,Spyker F1 Team,netherlands,10.0,19.0,8.0,0,17,17,0,0,1449,0,0,1.0,1.0,0,0,Netherlands
+stebro,Stebro,Stebro,canada,,21.0,7.0,0,1,1,0,0,88,0,0,0.0,0.0,0,0,Canada
+stevens,Stevens,Stevens,united-states-of-america,,1.0,8.0,0,6,6,0,0,1202,0,0,0.0,0.0,1,0,United States of America
+stewart,Stewart,Stewart Grand Prix,united-kingdom,4.0,1.0,1.0,0,49,49,1,0,3985,5,4,47.0,47.0,1,0,United Kingdom
+super-aguri,Super Aguri,Super Aguri F1 Team,japan,9.0,10.0,6.0,0,39,39,0,0,3569,0,0,4.0,4.0,0,0,Japan
+surtees,Surtees,Surtees Racing Organisation,united-kingdom,5.0,2.0,2.0,0,119,118,0,0,9720,2,2,54.0,53.0,0,3,United Kingdom
+sutton,Sutton,Sutton,united-states-of-america,,31.0,30.0,0,1,1,0,0,45,0,0,0.0,0.0,0,0,United States of America
+talbot-lago,Talbot-Lago,Talbot-Lago,france,,4.0,3.0,0,13,13,0,0,2846,2,2,0.0,0.0,0,0,France
+tec-mec,Tec-Mec,Studio Tecnica Meccanica,united-states-of-america,,17.0,,0,1,1,0,0,6,0,0,0.0,0.0,0,0,United States of America
+tecno,Tecno,Tecno Racing Team,italy,11.0,12.0,6.0,0,14,11,0,0,252,0,0,1.0,1.0,0,0,Italy
+theodore,Theodore,Theodore Racing,hong-kong,12.0,11.0,6.0,0,51,34,0,0,1803,0,0,2.0,2.0,0,0,Hong Kong
+token,Token,Token Racing,united-kingdom,,20.0,14.0,0,4,3,0,0,125,0,0,0.0,0.0,0,0,United Kingdom
+toleman,Toleman,Toleman Motorsport,united-kingdom,7.0,1.0,2.0,0,70,57,0,0,2892,3,3,26.0,26.0,1,2,United Kingdom
+toro-rosso,Toro Rosso,Scuderia Toro Rosso,italy,6.0,1.0,1.0,0,268,268,1,0,26972,3,3,500.0,500.0,1,1,Italy
+toyota,Toyota,Toyota Racing,japan,4.0,1.0,2.0,0,140,139,0,0,14363,13,13,278.5,278.5,3,3,Japan
+trevis,Trevis,Trevis,united-states-of-america,,7.0,6.0,0,4,4,0,0,960,0,0,1.0,0.0,0,0,United States of America
+trojan,Trojan,Trojan-Tauranac Racing,united-kingdom,,19.0,10.0,0,8,6,0,0,230,0,0,0.0,0.0,0,0,United Kingdom
+turner,Turner,Turner,united-states-of-america,,23.0,21.0,0,1,1,0,0,146,0,0,0.0,0.0,0,0,United States of America
+tyrrell,Tyrrell,Tyrrell Racing,united-kingdom,1.0,1.0,1.0,1,433,431,23,8,38299,77,66,711.0,617.0,14,20,United Kingdom
+vanwall,Vanwall,Vanwall,united-kingdom,1.0,1.0,1.0,1,29,28,9,0,2190,13,11,68.0,48.0,7,6,United Kingdom
+venturi,Venturi,Venturi Automobiles,france,11.0,10.0,6.0,0,16,16,0,0,1157,0,0,1.0,1.0,0,0,France
+veritas,Veritas,Veritas,germany,,7.0,7.0,0,6,6,0,0,155,0,0,0.0,0.0,0,0,Germany
+virgin,Virgin,Virgin Racing,united-kingdom,12.0,16.0,14.0,0,38,38,0,0,3412,0,0,0.0,0.0,0,0,United Kingdom
+watson,Watson,Watson,united-states-of-america,,1.0,1.0,0,9,9,3,2,2778,5,3,28.0,0.0,2,1,United States of America
+wetteroth,Wetteroth,Wetteroth,united-states-of-america,,28.0,24.0,0,1,1,0,0,122,0,0,0.0,0.0,0,0,United States of America
+williams,Williams,Williams Grand Prix Engineering,united-kingdom,1.0,1.0,1.0,9,825,824,114,33,85024,312,243,3637.0,3631.0,128,133,United Kingdom
+wolf-williams,Wolf-Williams,Wolf-Williams Racing,united-kingdom,,17.0,7.0,0,16,13,0,0,815,0,0,0.0,0.0,0,0,United Kingdom
+wolf,Wolf,Walter Wolf Racing,canada,4.0,1.0,1.0,0,48,47,3,0,2414,13,13,79.0,79.0,1,2,Canada
+zakspeed,Zakspeed,Zakspeed Racing,germany,10.0,13.0,5.0,0,74,53,0,0,2858,0,0,2.0,2.0,0,0,Germany
