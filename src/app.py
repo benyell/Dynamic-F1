@@ -43,6 +43,7 @@ max_days = st.sidebar.number_input(
     value=50, 
     step=10
 )
+
 # Header
 st.title("F1 Supply Chain Management Dashboard")
 st.write("Analyze and optimize the F1 supply chain using telemetry and RL-based decisions.")
@@ -162,26 +163,44 @@ if agent:
     for metric, value in test_metrics.items():
         st.write(f"**{metric}:** {value}")
 
-    # Visualize Inventory Changes
-    st.subheader("Inventory Changes During Training")
-    fig_train_inventory = px.line(
+    # Visualize Inventory Changes with Demand Trends
+    st.subheader("Inventory and Demand Changes During Training")
+    fig_train_inventory_demand = px.line(
         train_results_df,
         x="Day",
         y=["Inventory Before Action", "Inventory After Action"],
-        title="Inventory Levels Before and After RL Agent Actions (Training)",
-        labels={"Day": "Day", "value": "Inventory Level", "variable": "Inventory State"},
+        title="Inventory Levels and Demand During Training",
+        labels={"Day": "Day", "value": "Value", "variable": "Metric"},
     )
-    st.plotly_chart(fig_train_inventory)
 
-    st.subheader("Inventory Changes During Testing")
-    fig_test_inventory = px.line(
+    # Add demand to the training graph
+    fig_train_inventory_demand.add_scatter(
+        x=train_results_df["Day"],
+        y=processed_data["demand"][:len(train_results_df)],
+        mode='lines',
+        name="Demand",
+        line=dict(dash="dot", color="red")
+    )
+    st.plotly_chart(fig_train_inventory_demand)
+
+    st.subheader("Inventory and Demand Changes During Testing")
+    fig_test_inventory_demand = px.line(
         test_results_df,
         x="Day",
         y=["Inventory Before Action", "Inventory After Action"],
-        title="Inventory Levels Before and After RL Agent Actions (Testing)",
-        labels={"Day": "Day", "value": "Inventory Level", "variable": "Inventory State"},
+        title="Inventory Levels and Demand During Testing",
+        labels={"Day": "Day", "value": "Value", "variable": "Metric"},
     )
-    st.plotly_chart(fig_test_inventory)
+
+    # Add demand to the testing graph
+    fig_test_inventory_demand.add_scatter(
+        x=test_results_df["Day"],
+        y=processed_data["demand"][:len(test_results_df)],
+        mode='lines',
+        name="Demand",
+        line=dict(dash="dot", color="red")
+    )
+    st.plotly_chart(fig_test_inventory_demand)
 
 else:
     st.warning("RL agent decisions are not available. Train the agent and reload the app.")
