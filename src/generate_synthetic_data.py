@@ -92,7 +92,7 @@ def generate_supply_chain_data(
 
     # Simulate inventory and replenishment
     min_inventory = 10
-    replenishment_amount = 20
+    replenishment_amount =  100
     df["remaining_inventory"] = df["inventory_level"] - df["demand"]
     df["replenishment"] = df["remaining_inventory"].apply(
         lambda x: replenishment_amount if x < min_inventory else 0
