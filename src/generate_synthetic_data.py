@@ -101,9 +101,10 @@ def generate_supply_chain_data(
     # Simulate delayed replenishment
     df["delayed_replenishment"] = 0
     for i in range(len(df)):
-        lead_time = df.loc[i, "lead_time"]
+        lead_time = int(df.loc[i, "lead_time"])  # Explicitly cast lead_time to an integer
         if i + lead_time < len(df):
             df.loc[i + lead_time, "delayed_replenishment"] += df.loc[i, "replenishment"]
+
 
     df["inventory_level"] = df["remaining_inventory"] + df["delayed_replenishment"]
 
