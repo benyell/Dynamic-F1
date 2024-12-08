@@ -127,6 +127,6 @@ if __name__ == "__main__":
         constructors_distances_file,
         engine_distances_file,
         tyre_distances_file,
-        50,
+        180,
         output_file,
     )

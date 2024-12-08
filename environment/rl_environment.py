@@ -3,25 +3,26 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 class SupplyChainEnvironment:
-    def __init__(self, data_file, distances_file, max_days=50, max_inventory=500):
+    def __init__(self, data_file, distances_file, max_days=180, max_inventory=500):
         self.data = pd.read_csv(data_file)
         self.distances = pd.read_csv(distances_file)
 
         # Initialize scalers
-        self.scaler_demand = MinMaxScaler()
-        self.scaler_transport = MinMaxScaler()
-        self.scaler_inventory = MinMaxScaler(feature_range=(0, 1))  # Normalized to [0, 1]
+        # self.scaler_demand = MinMaxScaler()
+        # self.scaler_transport = MinMaxScaler()
+        # self.scaler_inventory = MinMaxScaler(feature_range=(0, 1))  # Normalized to [0, 1]
 
         # Normalize data
-        self.data["demand_normalized"] = self.scaler_demand.fit_transform(self.data[["demand"]])
-        self.data["transport_cost_normalized"] = self.scaler_transport.fit_transform(self.data[["transport_cost"]])
-        self.data["inventory_normalized"] = self.scaler_inventory.fit_transform(self.data[["inventory_level"]])
+        self.data["demand_normalized"] = self.data[["demand"]]
+        self.data["transport_cost_normalized"] = self.data[["transport_cost"]]
+        self.data["inventory_normalized"] = self.data[["inventory_level"]]
 
         self.max_days = max_days
         self.max_inventory = 1.0  # Normalized inventory range is [0, 1]
         self.current_day = 0
         self.inventory_level = self.data.iloc[0]["inventory_normalized"]  # Use normalized inventory
         self.state = None
+        self.last_invenetory = 0
 
     def encode_state(self, inventory_level, day):
         """
@@ -36,22 +37,38 @@ class SupplyChainEnvironment:
         self.inventory_level = self.data.iloc[0]["inventory_normalized"]  # Use normalized inventory
         self.state = self.encode_state(self.inventory_level, self.current_day)
         return self.state
-
+    
+    def current_inve(self):
+        return self.inventory_level
+    
     def step(self, action):
-        # Adjust inventory based on action (normalized action space)
-        self.inventory_level += action / 100.0  # Actions are small adjustments (scaled to [0, 1])
-        self.inventory_level = min(max(self.inventory_level, 0), self.max_inventory)
+        # Adjust inventory based on action
+        self.inventory_level += action/7  # Reduced scaling for smoother adjustments
+        self.inventory_level = min(max(self.inventory_level, 0), self.max_inventory)  # Cap inventory
 
-        # Get normalized demand and transport cost
-        demand_normalized = self.data.iloc[self.current_day]["demand_normalized"]
+        # Current demand and transport cost
+        demand_normalized = self.data.iloc[self.current_day]["demand_normalized"] * np.random.uniform(0.95, 1.05)
         transport_cost_normalized = self.data.iloc[self.current_day]["transport_cost_normalized"]
 
         # Reward calculation
-        stock_penalty = -50 if self.inventory_level < demand_normalized else 0
-        reward = (self.inventory_level - demand_normalized) * 1 - transport_cost_normalized * 0.2 + stock_penalty
+        reward = 0
+        if self.inventory_level < 0.5 and demand_normalized > 0.5:
+            # Stockout penalty proportional to shortfall
+            stock_penalty = -1000
+            reward = stock_penalty 
+        elif self.inventory_level> 0.5 and demand_normalized < 0.5 :
+            stock_penalty = -50
+            overstock_penalty = -50
+            reward = stock_penalty + overstock_penalty
+        elif self.inventory_level < 0.5 and demand_normalized < 0.5 and demand_normalized < self.inventory_level:
+            stock_penalty = 100
+            overstock_penalty = 0
+            reward = stock_penalty + overstock_penalty
+
 
         # Update inventory after demand
         self.inventory_level = max(self.inventory_level - demand_normalized, 0)
+        self.last_invenetory = self.inventory_level
 
         # Move to the next day
         self.current_day += 1
@@ -64,3 +81,6 @@ class SupplyChainEnvironment:
         # Encode the new state
         self.state = self.encode_state(self.inventory_level, self.current_day)
         return self.state, reward, done
+    
+    def last_inve(self):
+        return self.last_invenetory

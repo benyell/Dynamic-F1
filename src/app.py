@@ -39,8 +39,8 @@ max_inventory = st.sidebar.number_input(
 max_days = st.sidebar.number_input(
     "Simulation Duration (Days)", 
     min_value=10, 
-    max_value=100, 
-    value=50, 
+    max_value=200, 
+    value=180, 
     step=10
 )
 
@@ -119,10 +119,10 @@ if agent:
         done = False
 
         while not done:
-            inventory_before = env.inventory_level
+            inventory_before = env.current_inve()
             action = agent.choose_action(state)
             state, reward, done = env.step(action)
-            inventory_after = env.inventory_level
+            inventory_after = env.last_inve()
             results.append({
                 "Day": env.current_day,
                 "Inventory Before Action": inventory_before,

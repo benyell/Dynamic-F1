@@ -50,7 +50,7 @@ def test_agent(env, agent):
 
 if __name__ == "__main__":
     max_inventory = 500
-    max_days = 50
+    max_days = 180
 
     env = SupplyChainEnvironment(
         data_file="data/final_processed_data.csv",
