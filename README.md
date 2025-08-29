@@ -86,9 +86,12 @@ Running the Model
 * Dynamic epsilon-greedy strategy balances exploration/exploitation
 * Q-table updates based on reward feedback and state transitions
 
-![Alt text](images/dashboard-screenshot.png)
+<img src="data/Train2.png" width="300" alt="Train Results"> <img src="data/Test.png" width="300" alt="Inventory Train"> <img src="data/Test2.png" width="300" alt="Train Results">\
+Inventory and Demand Levels during Training    
 
-![Model Architecture](docs/images/model-architecture.png)
+<img src="data/Train.png" width="300" alt="Inventory Test">\
+Inventory and Demand Levels during Testing 
+
 
 ### Key Metrics
 
